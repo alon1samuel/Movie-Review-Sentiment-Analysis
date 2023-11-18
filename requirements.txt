@@ -2,3 +2,9 @@ polars
 scikit-learn
 plotly-express
 black
+transformers[torch]
+datasets
+evaluate
+torch # from https://download.pytorch.org/whl/cu118
+torchvision # from https://download.pytorch.org/whl/cu118
+torchaudio # from https://download.pytorch.org/whl/cu118

@@ -54,4 +54,4 @@ def print_feature_importance_from_pipeline(pipeline, top_n=10):
     print(f'Top {top_n} Features:')
     print(feature_importance_df.head(top_n))
 
-print_feature_importance_from_pipeline(pipeline=pipeline, top_n=10)
+print_feature_importance_from_pipeline(pipeline=pipeline, top_n=8)
